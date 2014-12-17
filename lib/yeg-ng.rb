@@ -10,7 +10,7 @@ module Yeg
       end
       app_name_camelized = app_name.split('_').collect(&:capitalize).join
       app_name_pretty = app_name.split('_').collect(&:capitalize).join(' ')
-      app_name_js = app_name.split('_').collect(&:capitalize).join(' ')
+      app_name_js = app_name_camelized + 'App'
       p = Pathname(__dir__)
       Dir.mkdir(app_name)
       target_folder = File.absolute_path(app_name)
