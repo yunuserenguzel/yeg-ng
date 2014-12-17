@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'yeg-ng'
+puts YegNg.init(ARGV[0])
