@@ -1,0 +1,11 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "name": "[APPNAME]",
+  "main": "app/index.html",
+  "devDependencies": {
+    "bower": "^1.3.1",
+    "bower-installer":""
+  },
+  "scripts": {}
+}

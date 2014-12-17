@@ -1,0 +1,14 @@
+{
+  "name": "[APPNAME]",
+  "description": "{APPNAME}",
+  "version": "0.0.1b",
+  "private": true,
+  "dependencies": {
+    "angular": "",
+    "jquery": "",
+    "angular-route": ""
+  },
+  "install" : {
+    "path" : "app/bower"
+  }
+}
